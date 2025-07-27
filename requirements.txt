@@ -1,1 +1,6 @@
-Flask
+streamlit
+xarray
+scikit-learn
+pandas
+numpy
+matplotlib
