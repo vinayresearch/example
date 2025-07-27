@@ -8,4 +8,4 @@ def home():
     return render_template('index.html', title='My Flask App', message='Welcome to a basic Flask app with templates!')
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=True, use_reloader=False)
